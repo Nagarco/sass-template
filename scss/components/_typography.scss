@@ -1,0 +1,20 @@
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+
+  &--intro {
+    font-size: calc(1.575rem + 3.9vw);
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  &--description {
+    font-size: 1.5rem;
+    text-transform: none;
+  }
+
+  @media (max-width: 576px) {
+    text-align: center;
+  }
+}

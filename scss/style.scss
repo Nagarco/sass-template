@@ -1,0 +1,12 @@
+@use"../assets/css/bootstrap.min.css";
+@use "custom";
+
+// import sections
+@use "./sections/navbar";
+@use "./sections/intro-section";
+
+// import components
+@use "./components/animations";
+@use "./components/buttons";
+@use "./components/mixins";
+@use "./components/typography";

@@ -1,0 +1,22 @@
+{
+  "name": "sass_template",
+  "version": "1.0.0",
+  "description": "bootstrap 5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watchn scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "sass": "^1.63.4"
+  }
+}
